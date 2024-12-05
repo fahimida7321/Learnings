@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <table>
+            <caption><b>Marks of Students</b></caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Marks</th>
+                    <th colspan="2">Subjects</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Fahimida</td>
+                <td>89</td>
+                <td>Maths</td>
+                <td>Science</td>
+            </tr>
+            <tr>
+                <td>Fahima</td>
+                <td>99</td>
+                <td>Maths</td>
+                <td>Science</td>
+            </tr>
+            </tbody>
+        </table>
+        <br/>
+        <form action="/action.php">
+            <h4>Registration Form</h4>
+            <p>Enter Name: <input type="text"> Enter Date of Birth:<input type="text" placeholder="dd/mm/yy"></p>
+            <p>Enter Class: <input type="text"> Enter School Name<input type="text"></p>
+            <label for="100">
+                <input type="radio" value="Female" name="class" id="100">Female
+            </label>
+            <label for="101">
+                <input type="radio" value="Male" name="class" id="101">Male</p>
+            </label>
+            <p>Select the interested Domain<br>
+            <label for="Software Development">
+                <input type="checkbox" value="Software Development" name="Domain">Software Development
+            </label><br>
+            <label for="DevOps">
+                <input type="checkbox" value="DevOps" name="Domain">DevOps
+            </label><br>
+            <label for="MlOps">
+                <input type="checkbox" value="MlOPs" name="Domain">MlOps
+            </label><br>
+            <label for="AIOps">
+                <input type="checkbox" value="AIOps" name="Domain">AIOps
+            </label></p>
+            <p>Enter Village:<input type="text"> Enter District:<input type="text">
+            <p>Choose the State:
+            <select name="State">
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Kerala">Kerala</option>
+            </select></p>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
