@@ -1,5 +1,4 @@
 *{
-<<<<<<< HEAD
     background-color: aqua;
 }
 .p1{
@@ -60,7 +59,6 @@ h4{
 input{
     background-color:wheat;
     border: 1px solid red;
-=======
     background-color:aquamarine;
 }
 #id1{
@@ -125,6 +123,5 @@ select{
 }
 iframe{
     border-radius: 40px;
-    margin-bottom: 5px;;
->>>>>>> 1e8193d05b5c30b4d802eda826378481e8462b8d
+    margin-bottom: 5px;
 }
