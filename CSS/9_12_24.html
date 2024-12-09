@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lists and Tables</title>
+        <link rel="stylesheet" type="text/css" href="style2.css"/>
+    </head>
+    <body>
+        <section>
+        <p class="p1">Through the below link or clicking on git image you can check my repositories in github</p>
+        <a id="a1" href="https://github.com/fahimida7321" target="main">My repositories</a><br/><!--Opens it in a new tab-->
+        <a href="https://github.com/fahimida7321"><img id="id1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxCQDnOYkL4KEU1k9WN4pMVnhb2ACxZlWwmg&s" alt="My repo" width="175"></a>
+        </section>
+        <p id="p2">These are the topics that I have explored day wise:</p>
+        <list>
+            <ol>
+                <li>Day 1</li>
+                <ul>
+                    <li>Html Basics</li>
+                </ul>
+                <li>Day 2</li>
+                <ul>
+                    <li>Html Attributes</li>
+                </ul>
+                <li>Day 3</li>
+                <ul>
+                    <li>Webpage Layout</li>
+                    <ul>
+                        <li>Using following tags</li>
+                        <ol>
+                            <li>Semantic tags</li>
+                            <li>Non-Semantic tags</li>
+                        </ol>
+                    </ul>
+                </ul>
+            </ol>
+        </list>
+        <p class="p1">Through the below video I have explored <b>HTML Language</b></p>
+        <iframe width="400" height="300" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=S13pjhZUrJ8ZtoMn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>
+        <div>
+        <table border="1">
+            <caption><b>Marks of Students</b></caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Marks</th>
+                    <th colspan="2">Subjects</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Fahimida</td>
+                <td>89</td>
+                <td>Maths</td>
+                <td>Science</td>
+            </tr>
+            <tr>
+                <td>Fahima</td>
+                <td>99</td>
+                <td>Maths</td>
+                <td>Science</td>
+            </tr>
+            </tbody>
+        </table>
+        <br/>
+        <form action="/action.php">
+            <h4>Registration Form</h4>
+            <p>Enter Name: <input type="text"> Enter Date of Birth:<input type="text" placeholder="dd/mm/yy"></p>
+            <p>Enter Class: <input type="text"> Enter School Name<input type="text"></p>
+            <p>Select Gender
+            <label for="100">
+                <input type="radio" value="Female" name="class" id="100">Female
+            </label>
+            <label for="101">
+                <input type="radio" value="Male" name="class" id="101">Male</p>
+            </label>
+            Select the interested Domain<br>
+            <label for="Software Development">
+                <input type="checkbox" value="Software Development" name="Domain">Software Development
+            </label>
+            <label for="DevOps" id="DevOps">
+                <input type="checkbox" value="DevOps" name="Domain">DevOps
+            </label>
+            <label for="MlOps">
+                <input type="checkbox" value="MlOPs" name="Domain">MlOps
+            </label>
+            <label for="AIOps">
+                <input type="checkbox" value="AIOps" name="Domain">AIOps
+            </label></p>
+            <p>Enter Village:<input type="text"> Enter District:<input type="text">
+            <p>Choose the State:
+            <select name="State">
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Kerala">Kerala</option>
+            </select></p>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
